@@ -1,4 +1,5 @@
 function Exercice30() {
+    
   const estConnecte = true;
   const utilisateurs = ["Romain", "Eloi", "Fred", "Raphaël", "Jonas"];
 
