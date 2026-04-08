@@ -3,7 +3,6 @@ import { useState } from 'react';
 function Exercice31() {
   const [mdpSaisi, setMdpSaisi] = useState("");
   
-  
   const estErreur = mdpSaisi !== "" && mdpSaisi !== "1234";
 
   return (
@@ -32,5 +31,4 @@ function Exercice31() {
     </div>
   );
 }
-
 export default Exercice31;
