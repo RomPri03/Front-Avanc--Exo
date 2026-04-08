@@ -4,11 +4,11 @@ import Exercice32 from './Exercice32';
 import Exercice33 from './Exercice33';
 
 function App() {
-  // 1. Tes variables simples
+
   const login = "RomainPrieur";
   const mdp = "1234";
 
-  // 2. Ton objet utilisateur
+
   const utilisateur = {
     login: "Romain_PrieurObjet",
     mdp: "2810"
@@ -21,7 +21,7 @@ function App() {
       <div style={{ border: '1px solid grey', padding: '15px', marginBottom: '10px' }}>
         <h2>Exercice 29 - Données</h2>
         
-        {/* Affichage des variables simples */}
+
         <p><strong>Variables :</strong> Login: {login} / Mot de Passe: {mdp}</p>
         
 
