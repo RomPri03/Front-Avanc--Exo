@@ -1,0 +1,31 @@
+function App() {
+  // 1) Variables simples
+  const loginSimple = "RomainPrieur";
+  const mdpSimple = "1234";
+
+  // 2) Objet avec propriétés
+  const utilisateur = {
+    login: "Romain_PrieurObjet",
+    mdp: "2810"
+  };
+
+  return (
+    <div style={{ padding: '20px' }}>
+      <h1>Exercice 29 - React</h1>
+
+      <div style={{ border: '1px solid grey', padding: '10px', marginBottom: '10px' }}>
+        <h3>1. Variables</h3>
+        <p>Login: {loginSimple}</p>
+        <p>Pass: {mdpSimple}</p>
+      </div>
+
+      <div style={{ border: '1px solid blue', padding: '10px' }}>
+        <h3>2. Objet</h3>
+        <p>Login: {utilisateur.login}</p>
+        <p>Pass: {utilisateur.mdp}</p>
+      </div>
+    </div>
+  )
+}
+
+export default App
