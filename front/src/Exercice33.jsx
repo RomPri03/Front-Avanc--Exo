@@ -12,7 +12,6 @@ function ChampSaisie({ texte, type = "text", auChangement }) {
   );
 }
 
-
 function Exercice33() {
   const [age, setAge] = useState("");
   const [adresse, setAdresse] = useState("");
