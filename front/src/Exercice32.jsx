@@ -35,7 +35,6 @@ function Exercice32() {
         onChange={(e) => setMdp(e.target.value)} 
       />
 
-
       <AffichageCouleur estOk={verification} />
     </div>
   );
